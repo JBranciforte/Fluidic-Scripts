@@ -1,0 +1,1851 @@
+{
+  "Steps": [
+    {
+      "Description": "Prime Buffer",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 10,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Fill Detect",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 60,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 1000,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 34,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 2,
+      "Duration": 1000,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Fill Detect Fluor",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 15,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 37,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 5,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 4,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Remove Air",
+      "Kind": 3
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 40,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 35,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Termination": 0,
+      "Iterations": 4,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 35,
+      "Duration": 60000,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "State": 35,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Description": "Prime Sample",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 8,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 64,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 68,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 100,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "NotifyType": 0,
+      "Kind": 4
+    },
+    {
+      "Description": "Run Sample",
+      "Kind": 3
+    },
+    {
+      "State": 64,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 68,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Termination": 0,
+      "Iterations": 18,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 100,
+      "Duration": 500,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 4,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Termination": 2,
+      "Iterations": 333,
+      "Duration": 133333,
+      "Kind": 1
+    },
+    {
+      "State": 68,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 100,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "State": 68,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "State": 4,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Description": "Flush - Sample",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 10,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Push Back - Sample",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 2,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 100,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 96,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 64,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Flush - Sample",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 3,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Flush Back and Fourth",
+      "Kind": 3
+    },
+    {
+      "State": 8,
+      "Duration": 100,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 100,
+      "Kind": 0
+    },
+    {
+      "Termination": 0,
+      "Iterations": 50,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "State": 4,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Description": "Flush - Sample",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 5,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Prime Detect",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 10,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 2,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 34,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "NotifyType": 1,
+      "Kind": 4
+    },
+    {
+      "Description": "Run Detect",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 16,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 2,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 34,
+      "Duration": 30000,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Flush - Detect",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 10,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Push Back Detect",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 2,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 34,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 2,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Flush - Detect",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 3,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Flush Back and Fourth",
+      "Kind": 3
+    },
+    {
+      "State": 8,
+      "Duration": 100,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 100,
+      "Kind": 0
+    },
+    {
+      "Termination": 0,
+      "Iterations": 50,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "State": 4,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Description": "Flush - Detect",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 10,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Prime Detect Fluor",
+      "Kind": 3
+    },
+    {
+      "NotifyType": 2,
+      "Kind": 4
+    },
+    {
+      "Termination": 0,
+      "Iterations": 5,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 1,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 5,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 37,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Run Detect Fluor",
+      "Kind": 3
+    },
+    {
+      "State": 1,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 5,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Termination": 0,
+      "Iterations": 3,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 37,
+      "Duration": 500,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Termination": 2,
+      "Iterations": 100,
+      "Duration": 40000,
+      "Kind": 1
+    },
+    {
+      "State": 5,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 37,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "State": 5,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Wait for Scan Setup to Complete",
+      "Kind": 3
+    },
+    {
+      "State": 5,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 37,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 33,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Timeout": 1500000,
+      "Kind": 5
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Description": "Flush - Detect Fluor",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 10,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Push Back Detect Fluor",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 2,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 37,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 5,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 4,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Push Back Detect",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 5,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 34,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 2,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Push Back - Sample",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 6,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 100,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 96,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 64,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Flush - Final",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 5,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Flush Back and Fourth",
+      "Kind": 3
+    },
+    {
+      "State": 8,
+      "Duration": 100,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 100,
+      "Kind": 0
+    },
+    {
+      "Termination": 0,
+      "Iterations": 100,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "State": 4,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Description": "Flush - Final",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 10,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Push Back Detect Fluor",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 2,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 37,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 5,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 4,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Push Back Detect",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 5,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 34,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 2,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Flush Back and Fourth",
+      "Kind": 3
+    },
+    {
+      "State": 8,
+      "Duration": 100,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 100,
+      "Kind": 0
+    },
+    {
+      "Termination": 0,
+      "Iterations": 50,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "State": 4,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 20,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Description": "Flush - Final",
+      "Kind": 3
+    },
+    {
+      "Termination": 0,
+      "Iterations": 10,
+      "Duration": 0,
+      "Kind": 1
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 36,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 52,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 48,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 16,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 0,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "Kind": 2
+    },
+    {
+      "Description": "Set End State",
+      "Kind": 3
+    },
+    {
+      "State": 8,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 12,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 44,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 40,
+      "Duration": 200,
+      "Kind": 0
+    },
+    {
+      "State": 32,
+      "Duration": 200,
+      "Kind": 0
+    }
+  ],
+  "Name": "32 Sample 4 Plex - 4.8.4 Prefilled Reduced Volume with Diagnostics"
+}

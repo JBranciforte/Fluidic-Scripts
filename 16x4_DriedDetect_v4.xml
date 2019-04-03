@@ -1,0 +1,2270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionNumber>1</VersionNumber>
+  <OriginalVersionNumber>1</OriginalVersionNumber>
+  <Steps>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>1aa52b48-6eb8-466a-a8c3-b80929106d55</Id>
+      <Description>Prime Buffer</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>0c2a3369-99f0-4914-b369-1d36a5b8fb5c</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>10</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>50f1b3d9-a80e-4ff3-b7d0-3beda681fe5c</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0f4571c3-e2bd-4850-b276-ea0afbe3a249</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7999797e-dc25-49eb-9995-98ca00cdfda9</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ef79f9f5-9cd9-473a-9da0-71445a493063</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2ced9c22-b73d-4832-ae0d-6c8e701e586a</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cbc6d0dc-fe8a-456d-bac8-8d73ea67511b</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>39627960-1bce-40dc-8ab5-21eccebe9873</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>1b56ba45-3ef8-4eb8-9acd-57a3295cb239</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>ebb5ca1a-2ac1-4320-90e4-9b87ac55ab79</Id>
+      <StartMate>0c2a3369-99f0-4914-b369-1d36a5b8fb5c</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>291e3e58-f3d9-498f-8421-89352a7465cf</Id>
+      <Description>Fill Detect</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>befde0ed-18be-4e3a-84f0-6bd2db342c81</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>60</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cf2fcb2f-9348-4d3a-ae18-2dc2cce60355</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>26a222f7-ebaf-4c18-bc81-e3014dd7b2cd</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>67478008-a987-46a5-9783-9ef57b9dcb04</Id>
+      <State>28</State>
+      <Duration>1000</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a7bd0435-9f71-4703-a83b-bf3c4695cafb</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>dd08d60f-bd7d-4a1a-9db8-257e12176fc2</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>e2b77e0e-1f7c-4e25-aa7d-eeaf3fbe2208</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a5163235-9661-448c-99b5-47c7b42ec064</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f7ed4d01-6aca-4963-82c5-7991996373f5</Id>
+      <State>36</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9569316a-e8ae-4031-bbf7-0d86f22dd1ca</Id>
+      <State>32</State>
+      <Duration>1000</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>d483ebe7-8bcb-47cd-b9b3-2bfa356d1560</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>7e001781-2515-49cf-ac43-db261d7ae2ce</Id>
+      <StartMate>befde0ed-18be-4e3a-84f0-6bd2db342c81</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>e8a24696-8929-41f3-86a6-6580a60b9ae4</Id>
+      <Description>Fill Detect Fluor</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>18981291-c5ba-470b-b085-eafc2a2f0c49</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>15</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>d5a8ea94-62f2-4b14-890d-21a587897f36</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2a1b9990-8277-4a04-8679-01ae16910f2e</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>218ffaba-a3d6-40af-b214-9243d961c8db</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>22c91a39-bea6-49d0-a120-5269383047b1</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>4fde003f-75db-47a3-81f0-53a365a28837</Id>
+      <State>84</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>903ea619-8602-4a0c-bd36-2617b48393db</Id>
+      <State>80</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a6621526-3f58-488b-a5d5-eadc4d9126c4</Id>
+      <State>16</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>207b6535-e2b8-44a8-bf30-cb060253f908</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f550d779-89cd-4bd0-8f36-a74b12218662</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0825c1c2-94f2-403b-89fa-c0d9eaadcad1</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>ee88ecbb-bdb7-4874-b059-61bb5828fefd</Id>
+      <StartMate>18981291-c5ba-470b-b085-eafc2a2f0c49</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>bb4a096d-35f9-48d2-9c22-6b599e4d2f70</Id>
+      <Description>Remove Air</Description>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>28d39ea0-3ec7-4167-a333-ed967b24a02b</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7c5669e5-1881-4f55-a97c-e8ee9a66560f</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>083fc9af-88b6-4162-b821-57fd91bfbacf</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>39b7ab80-5f38-42e7-8b78-dc5528d2a7c4</Id>
+      <State>12</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>e6451252-3220-4f23-9a55-9ff0b6db37ff</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>799c99ac-c50a-4119-8132-0c0033724262</Id>
+      <State>100</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>11c3e30e-ea59-4429-a386-102994115cf5</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>4</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>88436422-c1a0-4551-84e3-62fc0622cf56</Id>
+      <State>100</State>
+      <Duration>60000</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>85d2300c-972f-4d67-b16f-b96b7b931a9d</Id>
+      <StartMate>11c3e30e-ea59-4429-a386-102994115cf5</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2f48a462-f0f5-40e2-8237-78bef1c9992a</Id>
+      <State>100</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>67ef7468-5a28-452c-ac18-bba5339f209b</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7927d4ce-0535-4a38-a2bd-247c1394b4df</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>44b36a8b-f8b4-4c54-b13c-7d3de36cb055</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9a8f8f9f-af4f-479d-8b28-e54a15554dce</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>d478dd38-1776-4bd9-8e74-06e624ce9975</Id>
+      <Description>Prime Sample</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>26de91b3-470c-40e7-a91d-569fd67bcbc6</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>8</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>b143feb7-b97d-46a9-b740-259b0021b6a9</Id>
+      <State>1</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>62c670cf-947c-42e0-be2f-08245e89a0c3</Id>
+      <State>17</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0763079a-7d41-4c39-9ef1-9fbcf59ffa9c</Id>
+      <State>21</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>66836368-d16c-4922-b727-dfdd56429413</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>56aa8aa0-954b-48a5-95f2-1a53a04e03ed</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>8eeea90c-1a08-4002-9865-b25a697154bd</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>acc7a2a0-2397-4166-b2fd-168605ca266f</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>1234095b-0f79-4b5d-ac2a-39be181ef3b3</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>4e36d4f4-bff1-4103-a53e-149b4a6f6ab9</Id>
+      <StartMate>26de91b3-470c-40e7-a91d-569fd67bcbc6</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepNotify">
+      <Kind>Notify</Kind>
+      <Id>6026bcdc-ef18-4dd6-b44a-bb3ef5b5ed57</Id>
+      <NotifyType>Sample</NotifyType>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>84e4746b-3b7c-4148-a7b2-13cfb880e88a</Id>
+      <Description>Run Sample</Description>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>5e290aa7-72fa-4ca1-a700-1c7bdcedb025</Id>
+      <State>1</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7ac224c8-ccba-4d2d-afa8-b442268ca7ce</Id>
+      <State>17</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>21587de4-c0bc-4582-8811-ae799400a070</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>18</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>28392538-7e2e-455d-b490-a9d58310a6a8</Id>
+      <State>21</State>
+      <Duration>500</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2ffe7a6a-18b9-4b8c-b0ba-cbe16131e0dd</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>d71d6bfb-f600-47bd-883d-d1313d5ba862</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>c7a4fb2a-2653-4ec3-b2f6-db4adc0ed993</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>c5231f96-a1f7-43b8-9c20-84c32c6539a4</Id>
+      <State>16</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>92896f9b-f1b0-4964-9e90-89abd6c92500</Id>
+      <Termination>Both</Termination>
+      <Iterations>333</Iterations>
+      <Duration>133333</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>aa518601-32c8-4cca-aa2f-d7c827502f47</Id>
+      <State>17</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ddea4d1b-eef3-41ef-b603-2b2610e57391</Id>
+      <State>21</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>09ed555a-3268-464e-8a01-27c771d86526</Id>
+      <StartMate>92896f9b-f1b0-4964-9e90-89abd6c92500</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>84d957b1-50ab-490a-8390-1f2b9447ed85</Id>
+      <State>17</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>8ab5cd34-f3c7-46e3-af00-44f069725874</Id>
+      <StartMate>21587de4-c0bc-4582-8811-ae799400a070</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>448c4482-c016-4bfb-87df-b478165025f7</Id>
+      <State>16</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2fffb188-4353-48bd-85d1-7ddfb7a047c0</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>fdb59386-7f5a-4143-b060-208013b45940</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>29274049-e5b4-490b-9a55-4016cbb9459a</Id>
+      <Description>Flush - Sample</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>ee9c0df6-783c-47ec-8029-291722f982a4</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>10</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>63301bf2-2dcf-40e5-a540-e0902f9dc3eb</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>4531ef97-91b8-4f99-8a53-e49a0d4f8cba</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>8585d178-7b56-43c8-8ce0-ae3fa3e60442</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>4ec37c58-57df-4bd7-8c6d-f6e3a4a22b88</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>c3cd54f0-6121-483b-a859-a28a4a6e55e4</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ea8fde43-1c07-4327-8bce-66ee94df72fe</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f686d98a-aea2-4a9a-96cc-3e68b217a513</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>535d9753-292e-4395-90a7-36dbf578faf7</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>9e09e816-ed4d-4175-ba0b-4ec810d485d3</Id>
+      <StartMate>ee9c0df6-783c-47ec-8029-291722f982a4</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>60b1cdaa-2e86-4474-bb42-9bc5fddf876f</Id>
+      <Description>Push Back - Sample</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>d24b52dd-172d-4aaa-b156-cbbdb9bfd589</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>2</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f861ded8-f012-40e9-baad-03b5ccf10dfc</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>43c3a1f0-2199-4182-9fe1-d2ae1dac9164</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>57a0d518-701f-4962-a76f-e3fc355f8ded</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f427853a-adc9-4029-ab5d-17da3e42d8b3</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ff54d7f4-9591-46c9-b04d-11ab5df15ffc</Id>
+      <State>21</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>788f3272-0bce-442a-9ff6-943317534b78</Id>
+      <State>5</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>346b3812-5616-42ae-ba24-de6fc9bf3f3f</Id>
+      <State>1</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>518c78e0-fdc2-4bd2-ae34-2886d68cc6e5</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>905c5b0a-bd14-4883-8b88-5df124dae2e4</Id>
+      <StartMate>d24b52dd-172d-4aaa-b156-cbbdb9bfd589</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>3c8ee648-eab5-4176-a13e-781c74d1e490</Id>
+      <Description>Flush - Sample</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>80110f12-45ba-4980-94eb-8a245c6cf69c</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>3</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>33396279-d6b8-43d5-ad17-ddedf786ea41</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>c8ea3aca-38c8-47d3-875b-a5388407d249</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9f217289-d247-48c3-8443-f81db4dbe508</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f674e94c-b9ec-4911-8096-17ad1dae3608</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9ef4e021-2894-4e14-a278-12aeb66ff099</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>3bae803d-1908-4bc0-a529-eda4f8aab2f6</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0be21060-dc5d-4be8-b18f-fed2560e248a</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>163bc334-82ac-43fc-a99a-5318a20d8ca8</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>4e3716c9-4f80-4a53-aecc-4ad6c876b167</Id>
+      <StartMate>80110f12-45ba-4980-94eb-8a245c6cf69c</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>52cef2e3-f3aa-4379-9563-d3df99293c9d</Id>
+      <Description>Flush Back and Fourth</Description>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>96254fda-1b2f-459c-b054-e4d70b048efa</Id>
+      <State>8</State>
+      <Duration>100</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>289cbaca-e563-495f-ad8f-d0df66adde54</Id>
+      <State>24</State>
+      <Duration>100</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>52d3ec62-6786-4822-82b7-442b08059b88</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>50</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f5c5db9e-b25e-4f00-a5e6-352b8742edf4</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>8821f740-d50f-4097-8479-316d9b59e999</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>9ddd024d-cd4d-4665-b79c-f6434848c516</Id>
+      <StartMate>52d3ec62-6786-4822-82b7-442b08059b88</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7f5adfc0-8d9d-415f-be04-205b98d45bd9</Id>
+      <State>16</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0a2b1a8e-2b3f-4ee1-b3f9-3d8678900564</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2109a5d3-36bd-414d-ba5c-25cfb61eec3b</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ad6e9389-373c-4071-9518-f18e942b7aa3</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>52e4aab7-dda1-4290-aa11-7ba92e8f5e5a</Id>
+      <Description>Flush - Sample</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>c36c28f1-b1e0-4813-a972-1ba80ffa191e</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>5</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cd66f469-f0db-44f8-ae91-da9e6f319164</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>591c9a3d-cadb-4779-8cf2-a095a593fa5e</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>4ea7dfb8-4c07-44c6-89e4-2481f14fa6a3</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>eb488ee3-5283-4827-9528-d9f0690f6452</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>294e71fe-bc9d-4230-892b-c7fa735fd5ef</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>111f78af-549e-49bb-865f-9c93b00f7840</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>212521b8-bbbf-4708-acf3-a1aa2bd0cdc9</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>dac30bf1-683e-47c8-a424-e1aa8beab49f</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>aff5a171-bf3c-4198-b06d-e975fa4a730a</Id>
+      <StartMate>c36c28f1-b1e0-4813-a972-1ba80ffa191e</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>76e37b51-1c64-424f-8d99-acb517ff6912</Id>
+      <Description>Prime Detect</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>15cb8846-1e49-409c-978a-87fd47627ec5</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>10</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>5c309d79-91b4-43f0-b846-b73cedffb615</Id>
+      <State>32</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>20ba36e0-23c0-4f3b-9adf-792b33f1b193</Id>
+      <State>36</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2f9f1b42-21ff-4687-ae9b-09fec2d6da81</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>829fd53e-36d0-4ab0-b7d5-d34eb6cf6075</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>e5bdf830-8abb-4fa7-ae7c-325eb368d618</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>c6c74dbc-9f88-4a7c-8faf-91f6749fb528</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>4fde15c2-63a7-4042-9f95-783c5827a3d7</Id>
+      <StartMate>15cb8846-1e49-409c-978a-87fd47627ec5</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepNotify">
+      <Kind>Notify</Kind>
+      <Id>874532b7-bf0d-4dd0-90f9-564d7d5af1bf</Id>
+      <NotifyType>Detect</NotifyType>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>9bdd3d9e-0887-409d-b04b-845752f53ed7</Id>
+      <Description>Run Detect</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>5db69e8b-6c12-4081-b2a9-a932b8d6203c</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>16</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>62094545-546f-48aa-9765-cccf0521ac91</Id>
+      <State>32</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cf2cd331-f007-4b04-8ac8-5f64471d056e</Id>
+      <State>36</State>
+      <Duration>30000</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>6dc07fe9-f22c-4b80-976f-1b8cb300def8</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>74ca656c-698f-440c-89eb-31f8da856473</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cfe2b4bd-9690-4810-ba8e-edf7eac924a5</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0bc58fc1-855e-4f82-8da5-786880725912</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>81716ecf-e9cf-4553-9090-35140f4d59a0</Id>
+      <StartMate>5db69e8b-6c12-4081-b2a9-a932b8d6203c</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>49c0d625-20ab-4d9c-92f0-b8a95937933b</Id>
+      <Description>Flush - Detect</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>e357e394-989f-4187-bd3f-53bf60b0e7b3</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>10</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9fe353a2-9d3f-41e3-82f9-5013f53ce51d</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a4b92129-bc2d-4461-a24a-6dd25c4f536e</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>19a0694d-b170-48f2-9dfa-7ef8786e969c</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9e4c4aa0-d682-4d5f-87ff-8055023d66cd</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>fb897b18-b4cf-4d2f-baf6-41e1a52aca31</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>8cfce220-8865-4d45-9deb-9bacec0ccba8</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a17183d2-8407-4bdb-b7ab-531ff249b244</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>b77a1e59-770f-4174-93ff-ad388161b02b</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>5c92b98a-e8ed-4e2a-b747-0dbe980f78a6</Id>
+      <StartMate>e357e394-989f-4187-bd3f-53bf60b0e7b3</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>a1c2f1e2-e250-471c-ac9a-5c22615b1d87</Id>
+      <Description>Push Back Detect</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>2f666d69-f5dc-4a82-99e4-4f4f5cc55aeb</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>2</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a8ff4d36-4104-4113-8568-eb3aaae9ef1d</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a4a72865-89d6-4971-ab71-73ada4fea53f</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>759096bd-89c7-491b-b7d2-73fa767d6127</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>abff05b6-b3b4-462d-8608-c9a57355d34d</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>1b7e95b4-61c6-4f2d-9c5e-3a99dfd743e9</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>3bd54844-cbf0-413b-8a3d-c066e317f025</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>bdc1ef88-0515-47a1-8fe1-e74eeb41e53a</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>b967b772-1ee3-4f2d-8b12-ccaff3164e3d</Id>
+      <State>36</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>69371c4d-f2dc-4c5c-ad7f-0960e4b335fd</Id>
+      <State>32</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>58b8c0f1-6e4c-40f3-b17c-acbf9a43dbe6</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>89e6fe3d-7d3d-4c31-8bee-767d58e3ee10</Id>
+      <StartMate>2f666d69-f5dc-4a82-99e4-4f4f5cc55aeb</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>f3018a3a-26fa-420f-b106-fbae6d1b00e0</Id>
+      <Description>Flush - Detect</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>9c7c95cd-bed0-4dbf-9c98-64cb2c61ad08</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>3</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>47b5f39b-9d02-4b98-babc-5f2a411b90ce</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9036006e-9105-4c47-bb70-2f013f1aefee</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ba7d4a01-ace4-4d2d-8dfe-0a891cca7d15</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>60a9f460-8516-4428-8902-daafeb6a927b</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>fa204ed7-eea4-4775-b696-8296dd5e5162</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>e710e778-f95a-4a60-b9b5-d0aeecaa9f3b</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>b4a491da-a5b6-4650-a7e9-a8bd5c1db334</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>e23fa499-cacf-4b2b-a6bd-d274b5caa05a</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>f11e483c-8108-4db8-a7ef-e167fbf3b7b9</Id>
+      <StartMate>9c7c95cd-bed0-4dbf-9c98-64cb2c61ad08</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>70d1631b-b609-4daf-8fff-efd4c6b4188a</Id>
+      <Description>Flush Back and Fourth</Description>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>52b462b4-513f-49ac-942d-b4c3f1faf7d8</Id>
+      <State>8</State>
+      <Duration>100</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f0c30d29-6a60-4acb-9e0e-818acb8a05f0</Id>
+      <State>24</State>
+      <Duration>100</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>e6cb04ac-0e7e-42fa-a60b-c9fd46146fa2</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>50</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f44f6c35-a14c-4d05-8530-5a4e2552e04a</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>66874768-ab4d-45f6-bbef-dbc39ebd91ff</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>52f2ce26-c889-4ba3-83bc-dafd14498329</Id>
+      <StartMate>e6cb04ac-0e7e-42fa-a60b-c9fd46146fa2</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>36a8367b-f092-4b7e-a623-a928817c9ff8</Id>
+      <State>16</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0d06f408-8533-4260-bf6b-7d24cdd9eb42</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>d3ec8b93-ea75-4e7b-85c2-22a3b9e627bb</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>37818f3d-5bd3-4b59-afd4-fb6d236ed769</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>1c52e6bc-a1b8-46ae-a3bc-ccc12349816f</Id>
+      <Description>Flush - Detect</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>e3e7a0da-4b74-4ec8-b678-2e1df6746603</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>10</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>bf528c67-1b27-4bbe-9519-5c19527dd607</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>78ffd139-e916-423e-a617-1ea93de9537d</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a361d1b4-8d03-4806-9f6f-332430ded11a</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>40b46847-fcfe-4852-bcff-deb68daf4f8f</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>c346ab0a-95d0-4969-aede-c7eee59aee47</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>4c050945-c999-4ead-baee-1de31253f550</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>d0a7f79d-9633-4190-85e7-c919a13897ea</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>5eb48883-46e0-41bd-9c6b-625b69802dc6</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>c41556f3-a735-4d99-8a10-4bddaafd47f7</Id>
+      <StartMate>e3e7a0da-4b74-4ec8-b678-2e1df6746603</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>65520228-c1a4-4418-8d93-b4155663efa5</Id>
+      <Description>Prime Detect Fluor</Description>
+    </StepBase>
+    <StepBase xsi:type="StepNotify">
+      <Kind>Notify</Kind>
+      <Id>c8d3dd1c-e383-4887-898b-1ad2c626e0dc</Id>
+      <NotifyType>Dye</NotifyType>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>b397626b-17de-4968-98ba-7eb94bf095e4</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>7</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>e603c3b2-e0d3-45a8-bb59-cb250ccea082</Id>
+      <State>64</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>114ef34b-9d80-4d0a-aed3-cdff7e8cf939</Id>
+      <State>80</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>d0fe0780-ee62-4d37-999e-116eeeaa0571</Id>
+      <State>84</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7403187a-9e69-4b3e-ba78-0f47a1db4f57</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>b114b5c7-16de-401e-a228-ce67cd9b6c4d</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>33955a57-e744-4041-86c8-ee945833179a</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a4e7a00f-6555-45c6-9ecb-819027eb36f8</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2a3c1a5e-8e85-4b2b-85af-d5c59f4484f2</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>65595aa1-1549-4d39-ac62-c6f410311e1c</Id>
+      <StartMate>b397626b-17de-4968-98ba-7eb94bf095e4</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>e707041b-5904-41c6-995b-f414863f4422</Id>
+      <Description>Run Detect Fluor</Description>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>48dc8df6-5d23-4e19-b402-44d496aae9fd</Id>
+      <State>64</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>bfe76298-1bba-425a-b8cb-8bab5fc8859a</Id>
+      <State>80</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>4620e73c-6e88-4bb0-a812-15a00ab031a2</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>3</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2fd4bd32-4a03-4a5e-8289-1352666c60aa</Id>
+      <State>84</State>
+      <Duration>500</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>604bacdf-e5aa-4c10-ad34-d58480f9872f</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>5c9234e4-6427-4047-9c62-2978fe1bd0d8</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ba1552fa-a89f-41da-a3b4-8d57ead650bc</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>c87cb161-dd1d-44ad-8b75-40c2ae5ce44a</Id>
+      <Termination>Both</Termination>
+      <Iterations>100</Iterations>
+      <Duration>40000</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>28f851a1-1ecc-4bee-b89d-e514915dc52c</Id>
+      <State>80</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>241b92c8-c082-4413-9ab6-08757be16f89</Id>
+      <State>84</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>a77507f6-160f-4811-ae2b-8094760a0556</Id>
+      <StartMate>c87cb161-dd1d-44ad-8b75-40c2ae5ce44a</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>27dbb8cf-ba1d-424a-bf91-2d04e68e3358</Id>
+      <State>80</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>d84ed842-345c-4cbb-ac1e-67b7f4cb1513</Id>
+      <StartMate>4620e73c-6e88-4bb0-a812-15a00ab031a2</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>00da0936-0e5f-42d2-8361-ff3d3fbd7641</Id>
+      <Description>Wait for Scan Setup to Complete</Description>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>3acef81e-ffdf-4e15-bc28-0963887d143e</Id>
+      <State>80</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2e35fa55-cdaa-4fb0-8732-af6451aab41b</Id>
+      <State>84</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>8501b0c7-72b6-421b-b7aa-b0260a9721d5</Id>
+      <State>68</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>42fe6e79-b0fe-4c7b-ad5b-fa6cc1b45e12</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetStateAndWaitOnScan">
+      <Kind>SetStateAndWaitOnScan</Kind>
+      <Id>7f137c1b-e19d-4553-b6b5-d9afcb6bc5b3</Id>
+      <State>4</State>
+      <Timeout>720000</Timeout>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>93fc8fe5-eb7c-4ec7-b002-fae72def082b</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>57e5d639-0c4c-4b11-8d2e-5af87f7f5bee</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>848dc29f-b688-4391-b1d3-0ad34e2d22a6</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>a32adebd-453e-424d-bcdf-670a2aa9df48</Id>
+      <Description>Flush - Detect Fluor</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>a2f2b2a7-e0f3-490c-9fd1-0d567d07fd89</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>10</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cfd54975-266e-497f-ac1a-9399ad1e0f47</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>81ee160b-35ef-4b35-b00a-9c19e40853d9</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f4da44cf-fa62-4096-88ea-13e17a7c2e32</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>dd246963-7f1b-48d6-8cf7-8d7c69cfe126</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2f0c1652-d257-44cb-b694-936afe149b21</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>366821d2-1fc7-496a-b726-8b4642777718</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9941c194-45af-4f49-8630-e9685c604e76</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ab714f1d-953e-4234-a599-a8e0d5bdf31d</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>25c35831-fe14-411a-a45b-bf4d7ac9eb89</Id>
+      <StartMate>a2f2b2a7-e0f3-490c-9fd1-0d567d07fd89</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>925d7a02-8c17-4256-81ba-589c015a26bf</Id>
+      <Description>Push Back Detect Fluor</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>f273ae2b-acf9-4360-86d1-42bc23aba953</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>2</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>607436b4-76fb-4644-839f-a4d74959ee7f</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>977fa738-2d6c-46ad-8c0c-020dc457c397</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>93f363a0-8554-492d-a497-f3c6489f05d0</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f8308a15-09d2-4dbe-aa44-2c63cac96600</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>1583e1a9-a365-4f08-b35f-1401665d74ce</Id>
+      <State>84</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a9da188d-c82f-4d3b-96f8-d91edd29c4bd</Id>
+      <State>80</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>464b80e2-dd15-4f69-a66c-c96c54e8e7ba</Id>
+      <State>16</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>69ba7541-c5a4-414d-9d09-c7e81a105ac0</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9094d9ce-d4b7-4f10-aaa5-dbaece85504f</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>966cbeb0-7dd4-4ce9-bfe6-3532b2cbe660</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>77f9552f-e95e-4bdb-9b51-b8c8b7f25ee9</Id>
+      <StartMate>f273ae2b-acf9-4360-86d1-42bc23aba953</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>a28fb49c-8aed-4b61-a3ab-f5973dde8bdb</Id>
+      <Description>Push Back Detect</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>c8ae4286-eca4-461c-9e9f-bbfa90479c11</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>5</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>1b8bea48-783d-4b81-88a9-0e643c0eea52</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>19348182-dbc9-425c-b50e-9a8454fab515</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>6c531597-5a70-40ee-b3bd-4f7afe8138d7</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>db26265a-a915-406a-b291-8ca319dd0d80</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>e1b011c7-5846-4a1f-8715-17c15fbaa27e</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cb157cd4-e2a2-481b-b69c-d829910e6a9d</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>50f51850-bc61-4169-aeb8-675579e44c22</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>8b3f1210-a22a-438d-9f73-e8e19e6fab0f</Id>
+      <State>36</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>e068a044-5df4-440a-a01f-8dce045b7222</Id>
+      <State>32</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7a8f4678-2255-44c4-b5cc-e14ffad1ea5b</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>65b5dcba-4185-4ae5-94dd-9bfb7a756099</Id>
+      <StartMate>c8ae4286-eca4-461c-9e9f-bbfa90479c11</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>6ba60358-58df-443b-aecd-d5c23ec1eeb6</Id>
+      <Description>Push Back - Sample</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>9bbc64ec-0e48-4791-9224-632995457e02</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>6</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>3e601a14-5b43-4144-8117-0e57d948e42a</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7a56741b-9ae8-4214-9eda-33cd4c78d952</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>1ddcd989-56e4-4a93-8aba-7f8ff94396fc</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>88b50a1b-0d41-4dcf-a1c4-834efe38b9d6</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0e3c04e8-6ed8-4e8b-a1d3-86569e397684</Id>
+      <State>21</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>1e2dc69e-d2e7-4717-bef6-6ddb3c66bb43</Id>
+      <State>5</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>707eea1b-7d99-490e-81ee-bfccb7548711</Id>
+      <State>1</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ea518b81-04e6-44f5-bb2d-7c9d3f0cf5cc</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>973d554f-0ca8-4c79-9742-a58bd8ffd3ef</Id>
+      <StartMate>9bbc64ec-0e48-4791-9224-632995457e02</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>5027d356-f322-4ce0-8993-b77c3dd24b8d</Id>
+      <Description>Flush - Final</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>50479cd1-1295-4e4d-afb6-770d87f7ae43</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>5</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a7bc2b37-0609-4267-b17b-8ac1ffdfecab</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>62b35561-b4d6-4719-9135-4b2963ead4f2</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>b66e10fe-1f5d-4a14-af90-0d3fdbab821a</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>508774d6-32c9-4d17-8a40-55499efd0f44</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a9e35022-7d0b-4634-957b-b3736b299351</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>8b0caf40-a607-48ca-9601-61b8fe7aca3f</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>27b57e87-7dfa-41af-842a-a6c57720a5c8</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cbc83ce4-35ab-4d1f-a363-47ac30d72b12</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>4fce4412-ff1b-45f4-a257-2b529e2ed2ed</Id>
+      <StartMate>50479cd1-1295-4e4d-afb6-770d87f7ae43</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>82f84d09-a703-42ac-b4ad-931c96e13967</Id>
+      <Description>Flush Back and Fourth</Description>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>5b019fbb-be88-474e-a391-435b22774092</Id>
+      <State>8</State>
+      <Duration>100</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>53f0599f-0f75-432e-8507-bf68ee9f6c45</Id>
+      <State>24</State>
+      <Duration>100</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>269bdfe8-49fc-467b-a218-c4f33b0222a3</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>100</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>5debe150-43ec-4ae7-9439-f02a69eeeddd</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>bef8371e-5972-493e-8814-7253e0c85b51</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>09202198-6f3f-40a1-a375-150329cb27c8</Id>
+      <StartMate>269bdfe8-49fc-467b-a218-c4f33b0222a3</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>47a03db7-a841-45ba-8c14-d3161e47b541</Id>
+      <State>16</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>25aa56d0-fa53-40a6-ae94-ea9d8fcda2a6</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>3c808353-49a0-4569-a48e-9c76070d9603</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>29aff6f4-af26-4fbd-a9a1-5d7dc01c983c</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>aa2b690a-e97b-4c4a-a908-48d819cb7414</Id>
+      <Description>Flush - Final</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>edc5685c-c0f3-4389-8376-09da5fc47837</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>10</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>537709ce-1068-4b4d-a697-c09813bbfab0</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>8c606636-17d1-40c0-a2d4-49ae458e628d</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>bcd1cc70-7f10-4323-bbcd-5351c4f95d00</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7b3d0fbe-07c4-4097-b911-245f0fe8659b</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cf07a735-61ed-4557-831c-2789afc5f83e</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2731f6b4-26ca-4c46-babb-b8f7ee3e1cdc</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>79a596d8-363e-43e6-b7c3-6f6bbf022f87</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0aff26dc-9a96-413c-84a8-4df2c06a6694</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>f169d2c8-e71f-4f24-965c-cc7cf03515bb</Id>
+      <StartMate>edc5685c-c0f3-4389-8376-09da5fc47837</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>f6b080f0-b881-44c1-9a39-4dcc9d6cceff</Id>
+      <Description>Push Back Detect Fluor</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>0368a625-c7ce-4f97-9498-461005dbe525</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>2</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>27789300-c8c8-48c8-bfa3-2c30bbf7669d</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>e32e3a67-a250-4e5e-bf8a-003f89ce5a9c</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>42d0610b-950a-4e28-acf0-3b059473e583</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>00a7de73-8f68-46cc-b757-b7ee54c9e126</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>59a54b3f-218f-44cf-bbd5-3f381c3a6658</Id>
+      <State>84</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>474cf58a-ed62-40dd-8e7c-90b514c885b0</Id>
+      <State>80</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>d5ee8c56-5f0c-44fc-9d5a-d230f57a0a39</Id>
+      <State>16</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>de125119-1e35-4419-8918-6ca7a58fa7ae</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>49339ddf-aacf-48df-b123-7a25828c4911</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>1810c0f5-813f-42d6-9130-0c7de21c2d51</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>42a7a4a3-b357-4e1b-9422-621f20ced224</Id>
+      <StartMate>0368a625-c7ce-4f97-9498-461005dbe525</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>939343d5-8904-4d1e-8c02-5fc8a4c355f4</Id>
+      <Description>Push Back Detect</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>c3626dc2-e091-4d29-9639-0941691ebfe2</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>5</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>9876431f-447c-40d0-99d0-5a36b9792d37</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0dafa2bc-f30a-4dad-aa88-bec161548944</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>58bcc4aa-2e10-4e7b-9cc3-541962dd0c77</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a1de1e83-6d4e-401d-ae14-7fdadb15a069</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>8c4227e5-88c0-48c5-9357-c2431ebf06c2</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>6723c78c-6859-4934-adab-c7ce01f08520</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>a1430710-ae62-405e-845c-3e15d098aa31</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f7a42145-8f63-4ac0-9924-0a509f1f5e70</Id>
+      <State>36</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7997bd51-4b42-4239-9102-cba28f57d6f1</Id>
+      <State>32</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>335137c2-88b6-4f39-b5c6-0db7fb99de3c</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>ec3a9889-b2c0-4770-9bbc-b85b75dc18f7</Id>
+      <StartMate>c3626dc2-e091-4d29-9639-0941691ebfe2</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>0ebbdeec-3ff2-4bd2-ac33-d8961b1f9c56</Id>
+      <Description>Flush Back and Fourth</Description>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ae66398a-5fde-4f12-8344-fa947d001db9</Id>
+      <State>8</State>
+      <Duration>100</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>c014a8cc-b639-4fd8-8f4e-5f018d5d4aaf</Id>
+      <State>24</State>
+      <Duration>100</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>351abff1-853d-4d8c-ac81-be8d733f98fc</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>50</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>3ba25d8a-8167-43a1-99cc-20187e2a5e80</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>0073426f-8365-4d96-ad85-38759b59a520</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>e94c542e-36c9-43bf-a630-9e5d3e93d8a9</Id>
+      <StartMate>351abff1-853d-4d8c-ac81-be8d733f98fc</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>b554dd16-7f67-4573-ad89-42ac979440d7</Id>
+      <State>16</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>08583c2d-046b-4abf-a16a-84d9426b55fb</Id>
+      <State>18</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>ecb22bfd-af1e-4059-805b-baa15b3a63fb</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>7feb3ebb-7edf-42b0-8c83-1465975561ed</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>8d28872d-7048-4b19-8c32-9575b4e28004</Id>
+      <Description>Flush - Final</Description>
+    </StepBase>
+    <StepBase xsi:type="StepLoopStart">
+      <Kind>LoopStart</Kind>
+      <Id>ce74f2b3-4741-48af-9736-26ce1ca3f024</Id>
+      <Termination>Iteration</Termination>
+      <Iterations>10</Iterations>
+      <Duration>0</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f60c883f-28d5-4bd1-b3fb-1cd3b3c6272c</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>fbb0f224-ffc5-4464-b8b8-45fe0359e881</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>4ab659e6-d38c-4961-95f7-bd20a13c6302</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>014870db-c098-4f44-9698-212140d8ac05</Id>
+      <State>20</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>cacbe9e0-f188-47e1-9a94-d836d48e4fcf</Id>
+      <State>22</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>2a7e64b6-d190-4223-adcb-1866d8f70825</Id>
+      <State>6</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>274ab320-06f7-46f1-9465-97b879e0d9c6</Id>
+      <State>2</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>b9e914a8-026a-4431-900f-ef3ffbedf3c0</Id>
+      <State>0</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepLoopEnd">
+      <Kind>LoopEnd</Kind>
+      <Id>ed29ab4c-616d-415f-b6a5-b27b52cda017</Id>
+      <StartMate>ce74f2b3-4741-48af-9736-26ce1ca3f024</StartMate>
+    </StepBase>
+    <StepBase xsi:type="StepDescription">
+      <Kind>Description</Kind>
+      <Id>da5461de-0f5f-425b-9013-d311826ce685</Id>
+      <Description>Set End State</Description>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>6cdd5708-8791-4d08-a983-babd90083f5c</Id>
+      <State>8</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>d33cb18c-4305-40bb-86ae-bc9e95c23bcd</Id>
+      <State>24</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>4b8509c0-02e8-48a8-a386-fad397b149f6</Id>
+      <State>28</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>f703992f-a833-4e9e-843f-5615c489b7e3</Id>
+      <State>12</State>
+      <Duration>200</Duration>
+    </StepBase>
+    <StepBase xsi:type="StepSetState">
+      <Kind>SetState</Kind>
+      <Id>6b2634ca-09d0-450d-96d9-fe84dbe17b07</Id>
+      <State>4</State>
+      <Duration>200</Duration>
+    </StepBase>
+  </Steps>
+  <Name>16 Sample 4 Plex - 4.8.4 Prefilled Reduced Volume with Diagnostics</Name>
+</Script>
